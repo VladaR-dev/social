@@ -1,0 +1,56 @@
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: calc(100vh - 98px);
+    font-size: 24px;
+    border-right: 2px solid gray;
+    background-color: #241e1a;
+    padding-left: 18px;
+    padding-right: 12px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  
+  .nav .settings {
+    position: absolute;
+    bottom:15px; 
+    left:12px;
+  }
+  .nav a {
+   font-weight: 500;
+   letter-spacing: 2px;
+   text-decoration: none;
+   position: relative;
+   font-family: "Cormorant SC", serif;
+  }
+
+  .nav a:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #847e76;
+    transition: 0.7s;
+  }
+
+  
+  .nav a:hover:after {
+  width: 100%;
+  }
+
+  .active {
+    color:#9b948f;
+  }
+
+  .default {
+    color: #ece6df;
+  }

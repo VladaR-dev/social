@@ -1,0 +1,39 @@
+.dialogs {
+    font-family: "Mukta", sans-serif;
+    display: flex;
+}
+
+.dialogsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+}
+.messageBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.textareaBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    height: 140px;
+    padding-top: 10px;
+    border-radius: 0%;
+}
+
+
+.messages {
+
+}
+
+
+.active {
+    color: #9b948f;
+}

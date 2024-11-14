@@ -1,0 +1,57 @@
+.friendsBlock {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+    width: 100%; 
+    max-width: 100%; 
+    max-height: 180px; 
+    overflow-x: scroll; 
+    overflow-y: hidden; 
+    border: 1px solid #77756f; 
+    border-radius: 5px; 
+    padding: 10px; 
+    background-color: none; 
+}
+
+.friendsBlock::-webkit-scrollbar {
+    width: 5px; 
+    height: 10px;
+  }
+  
+  .friendsBlock::-webkit-scrollbar-track {
+    background: none; /* Цвет дорожки */
+  }
+  
+  .friendsBlock::-webkit-scrollbar-thumb {
+    background-color: #918a80; /* Цвет бегунка */
+    border-radius: 20px; /* Округление бегунка */
+    border: 3px solid #918a80; /* Оформление границ бегунка */
+  }
+
+.friendItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 5px; /* Отступы для каждого элемента */
+    text-decoration: none; 
+    color: #333; 
+}
+
+.friendItem:hover {
+    background-color:#918a80; 
+    border-radius: 5px;
+}
+
+.friendItemImg img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 40px;
+    object-fit: cover; 
+}
+
+.friendItemName {
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    color: #d3d3d3; 
+}

@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color:#241e1a;
+  
+  }
+  
+  .header img {
+    width: 180px;
+    height: 90px;
+    object-fit: cover;
+  }

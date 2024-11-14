@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+/*   font-family: "Mukta", sans-serif; */
+
+body {
+  font-family: "Cormorant SC", serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.app-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  background-color: #f3ede1;
+}
+
+.app-wrapper-content {
+  width: 100%;
+  height: calc(100vh - 98px);
+  overflow-y: scroll;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}

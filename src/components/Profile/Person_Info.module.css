@@ -1,0 +1,15 @@
+.personInfoBlock {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar img{
+  width: 220px;
+  height: 220px;
+}
+
+.personData {
+  padding-left: 20px;
+  font-size: 20px;
+}
